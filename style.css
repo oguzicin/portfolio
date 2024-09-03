@@ -772,7 +772,7 @@ a:hover{
         padding: 7px;
         top: 0px;
         left: 0px;
-        min-width: 450px !important;
+        min-width: 100px !important;
         width: 360px !important;
         z-index: 99;
         
