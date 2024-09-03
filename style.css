@@ -748,3 +748,33 @@ a:hover{
         margin-left: -40px !important;
     }
 }
+
+@media screen and (max-width: 360px){
+    #prjctDiv{
+        display:block;
+        margin-left: 10px ;
+        margin-right: 0px;
+        height: auto;
+        width: 415px;
+        margin-top: -200px;
+       
+        scroll-margin-top: 50px;
+    }
+
+    #icon_container{
+        background-color: #0a192f;
+        display: flex;
+        justify-content: space-around;
+        height:max-content;
+        
+        column-gap: 10px;
+        position: fixed;
+        padding: 7px;
+        top: 0px;
+        left: 0px;
+        min-width: 450px !important;
+        width: 360px !important;
+        z-index: 99;
+        
+    }
+}
