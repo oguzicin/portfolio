@@ -777,4 +777,7 @@ a:hover{
         z-index: 99;
         
     }
+    body{
+        max-width:360px;
+    }
 }
