@@ -575,10 +575,10 @@ a:hover{
 
 @media screen and (max-width:540px){
     #html{
-        width: 500px !important;
+        width: 400px !important;
     }
     #body{
-        width:500px !important ;
+        width:400px !important ;
     }
 
     #icon_container{
@@ -593,7 +593,7 @@ a:hover{
         top: 0px;
         left: 0px;
         min-width: 450px !important;
-        width: 100vw !important;
+        width: 96vw !important;
         z-index: 99;
         
     }
@@ -651,8 +651,8 @@ a:hover{
     }
 
     #bottom{
-        width: 97vw;
-        max-width: 460px;
+        width: 96vw;
+        max-width: 540px;
         font-size: 13px;
     }
 
@@ -687,10 +687,10 @@ a:hover{
     .prjctList{
         padding: 10px;
     
-        min-height: 180px;
+        min-height: 100px;
         max-height: 280px;
         width: 250px;
-        height:100px;
+        height:180px;
         font-size: 12.2px;
         background-color:#0e2443 ;
         /*rgba(48, 49, 49, 0.5)*/
@@ -699,7 +699,7 @@ a:hover{
         justify-content: space-between;
         display:flex;
         flex-direction: column !important;
-        margin-inline: 10px;
+        margin-inline: 10px !important;
         color: rgb(189, 189, 189);
         
     }
@@ -742,20 +742,58 @@ a:hover{
     }
     #section{
         max-width: 500px !important;
+        min-width: 360px !important;
+        
     }
 
     .mainDiv{
         margin-left: -40px !important;
     }
+    .hidden{
+        width: 400px !important;
+        margin: 20px;
+    }
+    .show{
+        width: 400px !important;
+        margin: 20px;
+    }
 }
 
 @media screen and (max-width: 360px){
+    html{
+        width: 350px;
+    }
+    body{
+        width:350px;
+    }
+    #oguz{
+        margin-left: 50px ;
+    }
+    #og1{
+        margin-left: 50px;
+    }
+    #og2{
+        margin-left: 50px;
+    }
+
+    
+    .section{
+        max-width: 350px !important;
+        min-width: 300px !important;
+        color: white !important;
+    }
+    #project{
+        height: 650px;
+        width: 300px !important;
+        max-width: 340px !important;
+    }
+    
     #prjctDiv{
         display:block;
         margin-left: 10px ;
         margin-right: 0px;
         height: auto;
-        width: 415px;
+        width: 300px;
         margin-top: -200px;
        
         scroll-margin-top: 50px;
@@ -772,12 +810,64 @@ a:hover{
         padding: 7px;
         top: 0px;
         left: 0px;
-        min-width: 100px !important;
-        width: 360px !important;
+        min-width: auto !important;
+        width: 95vw !important;
         z-index: 99;
         
     }
-    body{
-        max-width:360px;
+    .a1{
+        font-size: 12px;
+        
     }
+    #icons{
+        font-size:12px ;
+        margin-top: 9px !important;
+    }
+    .prjctList{
+        padding: 10px;
+        max-height: 280px;
+        
+        min-width:220px;
+        max-width: 220px;
+        height:70px !important;
+        min-height: 150px;
+        font-size: 9.2px;
+        background-color:#0e2443 ;
+        /*rgba(48, 49, 49, 0.5)*/
+        border-radius: 10px;
+        font-family: Reddit Mono;
+        justify-content: space-between;
+        display:flex;
+        flex-direction: column !important;
+        margin-inline: 0px !important;
+        color: rgb(189, 189, 189);
+        margin-left: 0px;
+        
+    }
+
+    .docIcon{
+        font-size:15px;
+    }
+
+    .phead{
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    .mainDiv{
+        width: 350px !important;
+        margin-left: auto !important;
+    }
+    .hidden{
+        width: 300px !important;
+        margin: 0px;
+    }
+    .show{
+        width: 300px;
+        margin: 0px;
+    }
+    #bottom{
+        width: 96vw !important;
+    }
+
 }
