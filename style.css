@@ -25,9 +25,9 @@ body{
 
 
 div{
-    /*border-width:2px;
+    /**/border-width:2px;
     border-style:solid; 
-    border-color:white;*/
+    border-color:white;
     
     
 }
@@ -759,7 +759,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 500px){
     html{
         width: 350px;
         margin-left: 0px;
@@ -859,15 +859,15 @@ a:hover{
 
     .mainDiv{
         width: 350px !important;
-        margin-left: auto !important;
+        margin-left: 0px !important;
     }
     .hidden{
         width: 300px !important;
-        margin: -50px;
+        margin: 0px;
     }
     .show{
         width: 300px;
-        margin: -50px;
+        margin: 0px;
     }
     #bottom{
         width: 96vw !important;
