@@ -272,8 +272,7 @@ a:hover{
 }
 .docIcon{
     color: #64ffda;
-    
-    padding-right: 0.5vw;
+    padding-right: 1.5vw;
 }
 .docIcon2{
     display: flex;
