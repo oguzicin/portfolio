@@ -892,10 +892,10 @@ a:hover{
         align-items: center;
         display: flex;
         height:max-content;
-        column-gap: 20px;
+        column-gap: 13px;
         margin-block-start:11px;
         font-size: 12px;
-        margin-inline-end:2.1vw;
+        margin-inline-end:4.1vw;
     
         
     }
