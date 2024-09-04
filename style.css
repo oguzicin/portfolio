@@ -863,11 +863,11 @@ a:hover{
     }
     .hidden{
         width: 300px !important;
-        margin: 0px;
+        margin: -50px;
     }
     .show{
         width: 300px;
-        margin: 0px;
+        margin: -50px;
     }
     #bottom{
         width: 96vw !important;
