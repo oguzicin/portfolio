@@ -1,7 +1,7 @@
 * { 
     /*font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    font-style: normal;*/
+    font-weight: 400;*/
+    font-style: normal;
   
    }
 
@@ -17,7 +17,7 @@ body{
     /*#131b30*/
     overflow-y: scroll;
     overflow-x:auto;
-    width: 100vw;
+    width: 97vw;
     max-width: 1510px !important;
     overflow-x: hidden;
     
@@ -26,7 +26,7 @@ body{
 
 div{
     /**/border-width:2px;
-    border-style:solid; 
+    border-style:none; 
     border-color:white;
     
     
@@ -36,7 +36,7 @@ section{
     display: grid;
     place-items: center;
     align-content: center;
-    min-width: 440px;
+    min-width: 350px;
     max-width: 3000px;
     height: 51vw ;
     max-height: 1000px !important;
@@ -97,7 +97,7 @@ a:link{
 }
 #oguz{
     width: 40vw;
-    font-size: 6.5vw;
+    font-size: 85px;
     border-width: 0px;
     border-style: solid;
     border-color: black;
@@ -122,7 +122,7 @@ img:hover{
     transform: translateY(-10px);
 }
 #og1{
-    font-size: 3.5vw;
+    font-size: 35px;
     color: rgb(196, 193, 196);
     mix-blend-mode:normal;
     padding-bottom: 0px !important;
@@ -130,13 +130,13 @@ img:hover{
 }
 #og2{
     display:block;
-    font-size: 1.7vw;
+    font-size: 25px;
     color: rgba(177, 176, 176, 0.596);
     min-width: 2vh;
     padding-top: -20px;
     font-family: tiny5;
-    margin-top: -3vw !important;
-    min-height: 5vh;
+    margin-top: -30px !important;
+    min-height: 5vw;
    
 }
 
@@ -391,11 +391,13 @@ a:hover{
     filter: blur(px);
     transform: translateY(20%);
     transition:all 2.3s;
+    
 }
 .show{
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
+    
 }
 @media(prefers-reduced-motion){
     .hidden {
@@ -759,7 +761,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 412px){
     html{
         width: 350px;
         margin-left: 0px;
@@ -770,6 +772,7 @@ a:hover{
     }
     #oguz{
         margin-left: 10px ;
+        margin-top: 0px;
     }
     #og1{
         margin-left: 10px;
@@ -778,12 +781,12 @@ a:hover{
         margin-left: 10px;
     }
 
-
     
     .section{
         max-width: 350px !important;
         min-width: 300px !important;
         color: white !important;
+        
     }
     #project{
         height: 650px;
@@ -859,7 +862,7 @@ a:hover{
 
     .mainDiv{
         width: 350px !important;
-        margin-left: 0px !important;
+        margin-left: auto !important;
     }
     .hidden{
         width: 300px !important;
@@ -871,6 +874,19 @@ a:hover{
     }
     #bottom{
         width: 96vw !important;
+    }
+
+    #headers:after {
+        background-color: #26b9b97e;
+        content: "";
+        display: flex;
+        height: 0.02mm;
+        margin-left: 220px;
+        margin-top: -40px;
+        margin-bottom: 20px;
+        width: 190px !important;
+        
+        
     }
 
 }
