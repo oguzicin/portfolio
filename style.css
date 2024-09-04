@@ -762,19 +762,22 @@ a:hover{
 @media screen and (max-width: 360px){
     html{
         width: 350px;
+        margin-left: 0px;
     }
     body{
         width:350px;
+        margin-left: 10px;
     }
     #oguz{
-        margin-left: 50px ;
+        margin-left: 10px ;
     }
     #og1{
-        margin-left: 50px;
+        margin-left: 10px;
     }
     #og2{
-        margin-left: 50px;
+        margin-left: 10px;
     }
+
 
     
     .section{
