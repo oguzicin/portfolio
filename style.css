@@ -888,6 +888,17 @@ a:hover{
         
     }
 
+    #icons{
+        align-items: center;
+        display: flex;
+        height:max-content;
+        column-gap: 14px;
+        margin-block-start:11px;
+        font-size: 12px;
+        margin-inline-end: 4.9vw;
+    
+        
+    }
     
 
 }
