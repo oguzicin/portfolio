@@ -665,6 +665,7 @@ a:hover{
     section#About{
         height: 500px;
     }
+    
 
     #Main{
         height: 770px !important;
@@ -932,7 +933,9 @@ a:hover{
         
     }
 
-   
+   section#Main{
+        height: 500px !important;
+    }
     
 
 }
