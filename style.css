@@ -620,7 +620,7 @@ a:hover{
 
     #main{
         min-height: 237px;
-        margin-top: 0px;
+        margin-top: -40px;
         width: 50vw;
         padding: -10px;
         scroll-margin-top: 0px;
